@@ -16,7 +16,7 @@ Includes a **dedicated Admin Panel** for managing menu items and orders, and mul
 * 🛒 **Smart Cart:** Add items to cart (local + server sync)
 * 📦 **Order Tracking:** Real-time status updates
 * 💳 **Secure Payments:** Integrated payment gateway (Stripe)
-🔐 **Authentication:** Sign up / login with JWT, view order history
+
 * 🔐 **User Authentication & Encryption:**
 
   * Passwords encrypted in backend
