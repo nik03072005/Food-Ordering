@@ -74,8 +74,8 @@ const registerUser = async (req,res)=>{
          const bytes = CryptoJS.AES.decrypt(password, "mySecretKey");
          const decryptedPassword = bytes.toString(CryptoJS.enc.Utf8);
 
-        //  console.log("Password hai ye :", decryptedPassword);
-        //  console.log("Password hai jo ja rhe :",password); 
+         console.log("Password hai ye :", decryptedPassword);
+         console.log("Password hai jo ja rhe :",password); 
 
           if(decryptedPassword.length<8){
             return res.json({success:false,message:"Please enter a strong password"})
