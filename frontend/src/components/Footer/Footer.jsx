@@ -35,7 +35,7 @@ function Footer() {
 
         {/* ---------------------------------------------------------------------- */}
 
-        <div className={styles.footerContent}>
+        <div className={styles.footerContentRight}>
 
 
         <h2> GET IN TOUCH</h2>
@@ -52,7 +52,7 @@ function Footer() {
     <p className={styles.footerCopyright}>
          <a href="https://digitalamitchoudhary.com/" target="_blank">
           Made with <span className={styles.heart}>❤</span> by
-          Khushijaiswal
+          Khushi
         </a>
       </p>
     </div>
