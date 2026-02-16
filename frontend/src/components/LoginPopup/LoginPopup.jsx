@@ -81,7 +81,6 @@ if (currState === "Login") {
 };
 
   return (
-    <div className={styles.loginPopupOverlay}>
       
     <div className={styles.loginPopup}>
       <form onSubmit={onLogin} className={styles.loginPopupContainer}>
@@ -147,7 +146,7 @@ if (currState === "Login") {
         )}
       </form>
     </div>
-    </div>
+    
   );
 }
 
